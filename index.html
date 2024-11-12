@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delayed Content Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div id="contttentx" class="contttent-box">
+      <p style="margin-top: 20px;" class="line line1">পৃথিবীর সৌন্দর্যের বাহার হচ্ছে ফুল ।</p>
+  <p class="line line2">আর সেই ফুলের বাহার তুমিই 🥰😲....</p>
+  <p class="line line3">( Princess👸 )Progga Chakma🥰</p>
+ <p class="line line4">ফুলুন সক্কেনে দোল লাগন..................</p>
+ <p class="line line5">যক্কেনে তুই সিগুন............................</p>
+  <p class="line line6">তর দোল চুলানত গুজেই দোজ ।</p>
+  <p class="line line7">সত্যি Progga🥰.........................</p>
+  <p class="line line8">তরে মুই বেক্কনিদি গমপাং আর গম লাগে।</p>
+  <p class="line line9">তুই মোরে অনেক ইগনোর গরজ......</p>
+  <p class="line line10">সেই ইগনোরানো মর অনেক গম লাগে।</p>
+  <p class="line line11">তোরলাই সবসময় মোর হোচপানা থেব ।</p>
+<p class="line line12">Proggaaaa.....🥰..........❤️..............!</p>
+<p class="line line13">মুই ভুল গরিলে মরে ক্ষমা গরিজ্ ।🙏আর...</p>
+  <p class="line line14">মুই তোর একজন ভালো বন্ধু অবাত্তে চাং.</p>
+  <p class="line line15">মোরে হি তোর.............❤️</p>
+  <p class="line line16">বন্ধু বানেবে এই জীবনোত🥺?</p
+  >
+  <p class="line line17">?...?...?...?....?....?....?....?....?....</p>
+    </div>
+
+
+  <div id="bb" class="loadder">
+    <span class="loadder-text">Taniya, please wait...</span>
+      <span class="load"></span>
+  </div>
+
+  <div id="popupOverlay" class="overlay">
+   <div class="popup">
+   <h1>Taniyaa💘,তোর জন্য চিদোত্তুন... আট গ্রহ সমান হোচপানা ।</h1>
+     <p >দয়া গরি ঠিক আগে গর❤️</p>
+  <button id="ab" class="ok-btn" onclick="closePopup()"</button>
+   </div>
+ </div>
+
+  <div id="contentBox" class="container">
+
+    <div class="rose">
+      <div class="flower">
+        <div class="patel"></div>
+        <div class="patel"></div>
+        <div class="patel"></div>
+        <div class="patel"></div>
+        <div class="patel"></div>
+        <div class="patel"></div>
+        <div class="patel"></div>
+      </div>
+      <div class="leaf">
+        <div class="stem"></div>
+        <div class="leafs"></div>
+        <div class="leafs"></div>
+      </div>
+    </div>
+  </div>
+    
+ <script>
+ 
+  function openPopup() {
+  document.getElementById("popupOverlay").style.display = "flex";
+}
+function closePopup() {
+  document.getElementById("popupOverlay").style.display = "none";
+  
+  
+}
+setTimeout(openPopup, 3000);
+
+//222222
+function closePopup() {
+  // Set a timeout of 4 seconds (4000 milliseconds)
+  setTimeout(function() {
+    document.getElementById("popupOverlay").style.display = "none";
+    // Show the hidden div
+    document.getElementById("contentBox").style.display = "block";
+    document.getElementById("contttentx").style.display = "block";
+  }, 1800);
+}
+//333333
+// Hide the div after 4 seconds (4000 milliseconds)
+setTimeout(function() {
+  document.getElementById("bb").style.display = "none";
+}, 3000);
+
+//333333333
+
+</script>
+
+</body>
+</html>

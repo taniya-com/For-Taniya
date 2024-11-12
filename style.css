@@ -1,0 +1,461 @@
+        .contttent-box {
+          display: none;color: red;
+          font-size: 25px;
+        }
+
+
+        .okkk-btn {
+          margin-top: 20px;
+          padding: 10px 20px;
+          /* Green background */
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 12px;
+        }
+.typewriter {
+  font-family: monospace;
+  line-height: 1.2; /* Adjust this value to control line spacing */
+}
+
+.line {
+  
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0px solid; /* Blinking cursor effect */
+  width: 0;
+  display: inline-block;
+  animation: typing 4s steps(100, end) forwards, blink 0.5s step-end 2s;
+  animation-fill-mode: forwards;
+  margin: 0; /* Remove extra margin around lines */
+}
+
+.line1 {
+  animation-delay: 0s;
+}
+
+.line2 {
+  animation-delay: 4.3s;
+}
+
+.line3 {
+  animation-delay: 9s;
+}
+
+.line4 {
+  animation-delay: 13s;
+}
+.line5{
+  animation-delay: 16.7s;
+}
+.line6{
+  animation-delay: 20.5s;
+}
+.line7{
+  animation-delay: 24.5s;
+}
+.line8{
+  animation-delay: 28.3s;
+}
+.line9{
+  animation-delay: 32.5s;
+}
+.line10{
+  animation-delay: 36.5s;
+ 
+}
+.line11{
+  animation-delay: 40.7s;
+}
+.line12{
+  animation-delay: 45s;
+}
+.line13{
+  animation-delay: 48.9s;
+}
+.line14{
+  animation-delay: 52.9s;
+}
+.line15{
+  animation-delay: 56.8s;
+}
+.line16{
+  animation-delay: 60.5s;
+}
+.line17{
+  animation-delay: 64.2s;
+}
+/* From Uiverse.io by alexruix */ 
+.loadder {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  justify-content: center;
+  left: 120px;
+  top: 15px;
+}
+
+.loadder-text {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  color: #C8B6FF;
+  animation: text_713 3.5s ease both infinite;
+  font-size: .8rem;
+  letter-spacing: 1px;
+}
+
+.load {
+  background-color: #9A79FF;
+  border-radius: 50px;
+  display: block;
+  height: 16px;
+  width: 16px;
+  bottom: 0;
+  position: absolute;
+  transform: translateX(64px);
+  animation: loading_713 3.5s ease both infinite;
+}
+
+.load::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #D1C2FF;
+  border-radius: inherit;
+  animation: loading2_713 3.5s ease both infinite;
+}
+
+
+
+body{
+  background: #000;
+}
+.overlay {
+            display: none; /* Hidden by default */
+            position: fixed;
+            top: 100px;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+           
+           align-items: center;
+            z-index: 1000;
+            
+        }
+
+        .popup {
+            margin-top: 10%;
+            width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            text-align: center;
+            animation: hoverEffect 4s infinite;
+
+            height: 200px;
+        }
+ 
+        h1{
+          font-size: 25px;
+          display:flex;
+          font-family: 'Sacramento',cursive;
+          font-style: italic;
+          padding-left: 12px;
+          padding-right: 12px;
+
+        }
+
+        .ok-btn {
+            margin-top: 0px;
+            padding: 10px 20px;
+            background-color: #C000FF; /* Green background */
+            color:#00FFE6;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+ #ab:hover {
+            background-color:#A67D49;
+            border-radius: 5px;
+ }
+
+.ok-btn::after {
+  content: "ঠিক আগে 🥰";
+  height: 100%;
+  width: 100%;
+}
+
+.ok-btn:hover::after {
+  content: "I love You Taniya 🌹";
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Sacramento';
+  font-style: italic;
+}
+ 
+        .popup p{
+          font-size: 18px;
+          color:#AEFF00;
+          text-align:center;
+        }
+.container {
+  display: none; 
+  padding: 20px; 
+  width: 300px; 
+  margin: 20px auto; 
+  border-radius: 8px; 
+  text-align: center;
+  position: absolute;
+} 
+h2{
+  font-family: 'Sacramento' ,cursive;
+  color: #fe7696;
+  font-size: 20px;
+}
+
+.letter{
+  width:300px;
+  height: 150px;
+}
+.rose{
+  width: 200px;
+  height:200px;
+  position: absolute;
+  right: 0;
+  animation: yid 5s infinite;
+  transform: translateY(40%);
+}
+.patel{
+  width: 70px;
+  height: 80px;
+  background: #fe7696;
+  border-radius: 0px 55%;
+  position: absolute;
+  box-shadow: 0 0 10px #d1123f;
+  z-index: 3;
+  transform-origin: bottom right;
+  animation: zhanki2 10s infinite;
+}
+.patel:nth-child(2){
+  transform-origin: right bottom;
+  transform: rotate(83deg);
+  background: #fe7696;
+  left: -7px;
+  animation: zhanki1 10s infinite;
+  
+}
+.patel:nth-child(3){
+  width: 60px;
+  height: 60px;
+  left: 12px;
+  z-index: 1;
+  top: -10px;
+  background: #f03a64;
+  transform-origin: bottom right;
+}
+.patel:nth-child(4){
+  transform: rotate(90deg);
+  width: 60px;
+  height: 60px;
+  left: 0;
+  top: -10px;
+  z-index: 1;
+  background: #f03a64;
+  animation: zhanki1 10s infinite;
+  transform-origin: bottom right;
+}
+.patel:nth-child(5){
+  transform: rotate(25deg);
+  width: 40px;
+  height: 40px;
+  left: 25px;
+  top: -8.5px;
+  z-index: 1;
+  background: #FC0000;
+  animation: zhanki1 10s infinite;
+  transform-origin: bottom right;
+  z-index: 0;
+}
+.patel:nth-child(6) {
+  transform: rotate(79deg);
+  width: 40px;
+  height: 40px;
+  left: 28px;
+  top: -15px;
+  z-index: 1;
+  background: #FC0000;
+  animation: zhanki1 10s infinite;
+  z-index: 0;
+}
+.patel:nth-child(7){
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background: #d1123f;
+  left: 20px;
+  top: 30px;
+  z-index: 0;
+}
+.leaf{
+  position: absolute;
+  top: 120px;
+  left:-115px;
+}
+.stem{
+  width: 280px;
+  height: 40px;
+  background: transparent;
+  border: 8px solid #00FC0F;
+  border-color: #00FC5A transparent transparent transparent;
+  border-radius: 50% 50%;
+  transform: rotate(100deg);
+  position: absolute;
+}
+.leafs{
+  width: 50px;
+  height: 40px;
+  border-radius: 0px 50%;
+  background: #77a377;
+  position: absolute;
+  top: 0;
+  left: 117px;
+  z-index: 0;
+}
+.leafs:nth-child(2){
+  width: 40px;
+  height: 20px;
+  top: 40px;
+  left: 166px;
+  transform: rotate(130deg);
+}
+@keyframes hoverEffect {
+  0% {
+    background-color: #4CAF50;
+  }
+  50% {
+    background-color: #ff5722; /* Change to a different color halfway */
+  }
+  100% {
+    background-color: #4CAF50; /* Return to the original color */
+  }
+}
+
+
+
+@keyframes loading2_713 {
+  0% {
+    transform: translateX(0px);
+    width: 16px;
+  }
+
+  40% {
+    transform: translateX(0%);
+    width: 80%;
+  }
+
+  80% {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  90% {
+    width: 80%;
+    transform: translateX(15px);
+  }
+
+  100% {
+    transform: translateX(0px);
+    width: 16px;
+  }
+}
+@keyframes text_713 {
+  0% {
+    letter-spacing: 1px;
+    transform: translateX(0px);
+  }
+
+  40% {
+    letter-spacing: 2px;
+    transform: translateX(26px);
+  }
+
+  80% {
+    letter-spacing: 1px;
+    transform: translateX(32px);
+  }
+
+  90% {
+    letter-spacing: 2px;
+    transform: translateX(0px);
+  }
+
+  100% {
+    letter-spacing: 1px;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes loading_713 {
+  0% {
+    width: 16px;
+    transform: translateX(0px);
+  }
+
+  40% {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  80% {
+    width: 16px;
+    transform: translateX(64px);
+  }
+
+  90% {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  100% {
+    width: 16px;
+    transform: translateX(0px);
+  }
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: black; }
+}
+@keyframes yid{
+  50%{
+    transform: translateY(35deg);
+  }
+  100%{
+    transform:translateY(40%);
+  }
+}
+@keyframes zhanki1{
+  50%{
+    transform: rotate(80deg);
+  }
+  100%{
+    transform: rotate(80deg);
+  }
+}
